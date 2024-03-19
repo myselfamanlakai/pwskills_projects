@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#CounterApp{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200px;
+    margin-bottom: 40px ;
+
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin: 10px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.25;
+    -webkit-transition: background-color 0.25;
+    -moz-transition: background-color 0.25;
+    -ms-transition: background-color 0.25;
+    -o-transition: background-color 0.25;
+}
+
+.btn:hover{
+    background-color: rgb(119, 194, 194);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
