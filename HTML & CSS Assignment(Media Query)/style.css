@@ -1,0 +1,103 @@
+/* General styles for all screens */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #b90202;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+/* General styles for screen info boxes */
+.laptop_large,
+.laptop,
+.tablet,
+.mobile {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  font-size: 1.2em;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.laptop_large:hover,
+.laptop:hover,
+.tablet:hover,
+.mobile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query for screens larger than or equal to 1440px */
+@media (min-width: 1440px) {
+  .laptop_large {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 2px solid #badbcc;
+  }
+}
+
+/* Media query for screens between 1024px and 1439px */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .laptop {
+    background-color: #cff4fc;
+    color: #055160;
+    border: 2px solid #b6effb;
+  }
+}
+
+/* Media query for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tablet {
+    background-color: #fff3cd;
+    color: #664d03;
+    border: 2px solid #ffecb5;
+  }
+}
+
+/* Media query for screens smaller than or equal to 425px */
+@media (max-width: 425px) {
+  .mobile {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 2px solid #f5c2c7;
+  }
+}
+
+/* Additional styles for a more professional look */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.screen-info-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.screen-info {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.screen-info:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
